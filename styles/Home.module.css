@@ -1,0 +1,43 @@
+.bg-frost {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.eclipse {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 30px;
+  height: 298px;
+  left: 498px;
+  top: 208px;
+
+  background: #0EFFD4;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #000000;
+  filter: blur(350px);
+}
+
+.bg-image {
+  position: fixed;
+  height: 100vh;
+  background-image: url("/Bgimg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-attachment: fixed;
+  overflow: hidden
+}
+
+.my-text {
+  font-family: orbitron;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/fonts/Orbitron-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
